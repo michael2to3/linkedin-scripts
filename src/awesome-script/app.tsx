@@ -1,8 +1,6 @@
 import { createEffect, createSignal, onCleanup } from 'solid-js';
 import { render } from 'solid-js/web';
 import { getPanel } from '@violentmonkey/ui';
-import globalCss from './style.css';
-import { stylesheet } from './style.module.css';
 import { urlFunctionality } from './function';
 
 const main = () => {
@@ -46,7 +44,6 @@ const main = () => {
 
   const panel = getPanel({
     theme: 'dark',
-    style: [globalCss, stylesheet].join('\n'),
   });
   Object.assign(panel.wrapper.style, {
     top: '10vh',
