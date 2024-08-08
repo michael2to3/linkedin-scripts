@@ -13,7 +13,7 @@ class CopyUsernames extends BaseFunctionality {
 
   execute() {
     const usernames = document.querySelectorAll(
-      'ul.reusable-search__entity-result-list.list-style-none li span[dir="ltr"]',
+      'ul.reusable-search__entity-result-list.list-style-none li span[dir="ltr"] span',
     );
     const text = Array.from(usernames)
       .map((el) => el.textContent)
