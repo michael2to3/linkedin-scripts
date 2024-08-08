@@ -5,7 +5,7 @@ import pkg from './package.json' with { type: 'json' };
 
 export default defineConfig(
   Object.entries({
-    'awesome-script': 'src/awesome-script/index.ts',
+    'linkedin-scripts': 'src/linkedin-scripts/index.ts',
   }).map(([name, entry]) => ({
     input: entry,
     plugins: [
