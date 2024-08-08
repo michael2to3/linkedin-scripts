@@ -2,7 +2,7 @@
 
 This is a custom userscript for Violentmonkey to make OSINT on LinkedIn faster and easier.
 
-[](.readme/demo.png)
+![demo pic](.readme/demo.png)
 
 ## Current Features
 
